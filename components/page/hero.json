@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_page_heroes",
+  "info": {
+    "name": "hero",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.label"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "actionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.action-button"
+    },
+    "heroImage": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

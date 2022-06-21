@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_action_buttons",
+  "info": {
+    "name": "actionButton",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "lable": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "greenFilled",
+        "outlined",
+        "purpleFilled"
+      ]
+    }
+  }
+}

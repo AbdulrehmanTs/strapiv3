@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_labels",
+  "info": {
+    "name": "label",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "green",
+        "purple",
+        "yellow"
+      ]
+    }
+  }
+}
