@@ -1,0 +1,28 @@
+{
+    "routes": [
+        {
+            "method": "GET",
+            "path": "/activism",
+            "handler": "activism.find",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "PUT",
+            "path": "/activism",
+            "handler": "activism.update",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "DELETE",
+            "path": "/activism",
+            "handler": "activism.delete",
+            "config": {
+                "policies": []
+            }
+        }
+    ]
+}

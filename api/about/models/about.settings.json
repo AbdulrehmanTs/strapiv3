@@ -14,7 +14,7 @@
   "attributes": {
     "header": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "page.header"
     },
     "hero": {

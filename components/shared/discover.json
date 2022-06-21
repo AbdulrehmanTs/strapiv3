@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_discovers",
+  "info": {
+    "displayName": "discover",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "iconClassName": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.features"
+    }
+  }
+}
